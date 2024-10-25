@@ -1,2 +1,2 @@
 # saa-template-bundle
-SAA Template Bundle
+To have new bundle, we should replace `SaaTemplateBundle` ==> Saa{bundle_name}Bundle

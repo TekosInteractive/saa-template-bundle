@@ -1,0 +1,37 @@
+{
+  "name": "tekos-interactive/{{bundle_name}}",
+  "type": "symfony-bundle",
+  "description": "SAA template on TekosInteractive",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2",
+    "friendsofsymfony/rest-bundle": "^3.5",
+    "symfony/framework-bundle": "^6.2",
+    "symfony/security-bundle": "^6.2",
+    "symfony/runtime": "^6.2",
+    "symfony/serializer": "^6.2",
+    "symfony/console": "^6.2",
+    "symfony/dotenv": "^6.2",
+    "symfony/config": "^6.2",
+    "symfony/yaml": "^6.2",
+    "doctrine/orm": "^2.14"
+  },
+  "require-dev": {
+    "pem-fr/php-test-tools": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "TekosInteractive\\SaaTemplateBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TekosInteractive\\SaaTemplateBundle\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/runtime": true
+    }
+  }
+}
